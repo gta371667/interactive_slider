@@ -297,7 +297,7 @@ class _InteractiveSliderState extends State<InteractiveSlider> {
           decoration: ShapeDecoration(
             shape: widget.shapeBorder,
             color: widget.backgroundColor ??
-                brightnessColor.withValues(alpha: 0.12),
+                brightnessColor.withOpacity(0.12),
           ),
           child: child,
         );
